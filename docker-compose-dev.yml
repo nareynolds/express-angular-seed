@@ -3,7 +3,7 @@ myapp:
   command: node_modules/.bin/nodemon index.js
   container_name: myapp
   environment:
-    NODE_ENV: development
+    NODE_ENV: dev
   ports:
     - '3000:3000'
   volumes:

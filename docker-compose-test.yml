@@ -1,6 +1,6 @@
 myapp:
   build: .
   environment:
-    NODE_ENV: production
+    NODE_ENV: test
   ports:
     - '3000:3000'
